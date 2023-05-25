@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: entrar 1s forwards;
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  @keyframes entrar {
+    0% {
+      top: -200px;
+    }
+    100% {
+      top: calc(50% - 200px);
+    }
+  }
+  

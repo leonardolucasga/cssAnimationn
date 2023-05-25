@@ -1,0 +1,40 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circulo {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    animation: quicar 2s ease-in-out infinite;
+  }
+  
+  @keyframes quicar {
+    0% {
+      left: 0;
+      transform: translateY(0);
+    }
+    25% {
+      left: 50%;
+      transform: translateY(-200px);
+    }
+    50% {
+      left: 100%;
+      transform: translateY(0);
+    }
+    75% {
+      left: 50%;
+      transform: translateY(-200px);
+    }
+    100% {
+      left: 0;
+      transform: translateY(0);
+    }
+  }
+  

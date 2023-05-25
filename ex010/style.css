@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagem {
+    width: 200px;
+    height: 200px;
+    transition: transform 2s, width 2s, height 2s, top 2s, left 2s;
+  }
+  
+  .imagem:hover {
+    transform: translate(-50vw, -50vh) scale(0.35);
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    left: 10px;
+  }
+  

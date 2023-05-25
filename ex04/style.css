@@ -1,0 +1,22 @@
+*{  margin: 0;
+    padding: 0;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    position: relative;
+    animation: deslocamento 4s linear ;
+}
+@keyframes deslocamento{
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+p{
+    text-align: center;
+}

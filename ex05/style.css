@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(0);
+    transition: transform 3s;
+  }
+  
+  .quadrado:hover {
+    transform: rotate(45deg);
+  }
+  

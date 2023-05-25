@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quadrado {
+    width: 0;
+    height: 0;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: aparecer 2s forwards;
+  }
+  
+  @keyframes aparecer {
+    0% {
+      width: 0;
+      height: 0;
+      background-color: blue;
+    }
+    25%{
+        width: 100px ;
+        height: 100px;
+        background-color: gray;
+    }
+    50% {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+  

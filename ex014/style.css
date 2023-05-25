@@ -1,0 +1,13 @@
+.elemento {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  .elemento:hover {
+    width: 200px;
+    height: 100px;
+  }
+  
